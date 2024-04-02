@@ -28,3 +28,5 @@ Basic Workflow for a pull request
     7. Merge the pull request into main
     8. Don't forget to git pull inside the main branch on your local machine
     9. Delete the new branch on GitHub and locally
+
+### My Notes
