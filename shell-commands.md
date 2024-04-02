@@ -1,54 +1,26 @@
-## Shell Commands
+### Basic Shell commands
 
-| Command | Functionaluty
--------------------------
-ls | list the content of the current directory
+| command                  | functionality                                                              |
+| ------------------------ | -------------------------------------------------------------------------- |
+| `ls`                     | list the content of the current directory                                  |
+| `cd <foldername>`        | change directory into a folder                                             |
+| `cd ..`                  | change into the parent folder                                              |
+| `cd ~`                   | change into your home directory                                            |
+| `pwd`                    | print the current directory path                                           |
+| `touch example.md`       | create a file called "example.md"                                          |
+| `mkdir newFolder`        | create a folder called "newFolder"                                         |
+| `mv <oldname> <newname>` | move or rename a file                                                      |
+| `rm <filename>`          | delete a file permanently (there is no trash bin to recover files!)        |
+| `open .`                 | open the current folder in the finder                                      |
+| `cat <filename>`         | prints the content of a specific file                                      |
+| `curl <url>`             | prints the received content from the specified url. (try `curl ipinfo.io`) |
 
-
-
-## Git Notes
-
-
-# GitHub and Markdown
-
-## Learning Objectives
-
-- learning what version control is and why it is useful / important
-- creating repositories on GitHub
-- creating / editing files on GitHub
-- creating commits on GitHub
-- learning what Markdown is
-- writing Markdown
+> 💡 There are a lot of commands for any sort of action you want to perform check out
+> [this cheat sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet) to look up important commands.
 
 ---
 
-## Markdown
+## Resources
 
-The Markdown syntax allows writing formatted text (headlines, blockquotes, lists, etc.) that can be
-stored in plain text. It is used by tools and websites like GitHub or Slack. It uses specific
-characters to format parts of the text in a certain way.
-
-### Markdown Examples
-
-| Element                         | Markdown Syntax                         |
-| ------------------------------- | --------------------------------------- |
-| Level 1 headline                | `# Level 1 headline`                    |
-| Level 2 headline                | `## Level 2 headline`                   |
-| Level 5 headline                | `##### Level 5 headline`                |
-| list item                       | `- list item`                           |
-| [ ] done                        | `[ ] checkbox`                          |
-| [x] done                        | `[x] checkbox`                          |
-| **bold text**                   | `**bold text**`                         |
-| _italicized text_               | `_italicized text_`                     |
-| [link](https://www.example.com) | `[link text](https://www.example.com)`  |
-| image                           | `![description of image](url to image)` |
-| block quote                     | `> block quote`                         |
-| divider                         | `---`                                   |
-| `inline code block`             | `` `inline code block` ``               |
-| `code block`                    | ` ``` code block ``` `                  |
-
-See this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for
-more Markdown Syntax.
-
----
-
+- [Terminal basics](https://mrkaluzny.com/blog/terminal-101-getting-started-with-terminal/)
+- [Command line cheat sheet](https://github.com/0nn0/terminal-mac-cheatsheet#english-version)
