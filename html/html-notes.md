@@ -2,6 +2,11 @@
 
 [List of Html Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
+## Shortkeys:
+
+1. Ctr + / - A comment
+2. 
+
 ## Trial Code
 
 
